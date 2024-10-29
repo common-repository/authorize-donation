@@ -1,0 +1,53 @@
+#card-type{
+	height: 38px;
+    width: 49px;
+    float: left;
+
+}
+#card-type.nocard{
+    width: 40px;
+}
+#card_number{
+	width: 50%;
+	margin-right: 20px;
+	float: left;
+}
+#expiry_month,#expiry_year{
+	width: 15%;
+}
+#cvv{
+	width: 10%;
+}
+#emailid{
+	width: 40%;
+}
+body{
+
+width: 100%;
+
+height: 100%;
+
+position: relative;
+
+overflow-x: hidden;
+}
+.loader{
+
+    display: block ;
+    width: 98%;
+    max-width: 651px;
+    margin: auto;
+    padding: 22px 35px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 9999;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    overflow: hidden;
+}

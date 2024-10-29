@@ -1,0 +1,32 @@
+/* CSS here */
+
+
+.row {
+    margin-bottom: 10px;
+}
+
+.entry-title > a {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.hs-read-more {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#hubspot_banner {
+    max-width: 100%!important;
+}
+
+.hs-blog-image-block {
+    max-height: 250px;
+    overflow: hidden;
+}
+
+.hs-blog-image {
+    max-width: 100%;
+    height: auto;
+}
